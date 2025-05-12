@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .sImg{
+        width: 300px;
+        height: 450px;
+        background-image: url("sImg.jpg");
+        background-position: center;
+        background-size: cover;
+        background-color: none;
+    }
+    .sImg p{
+        width: 300px;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+    }
+    .sImg:hover{
+        background-image: none;
+        background-color: green;
+    }
+    .sImg p:hover{
+        opacity: 100%;
+        color: white;
+    }
+</style>
+<body>
+    <h1>サンプル１</h1>
+    <div class="sImg">
+        <p>こんにちは</p>
+    </div>
+</body>
+</html>
